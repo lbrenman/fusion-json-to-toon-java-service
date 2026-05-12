@@ -6,7 +6,7 @@ If you are sending JSON data to your LLM, you can benefit from converting your J
 
 TOON provides a lossless serialization of the same objects, arrays, and primitives as JSON, but in a syntax that minimizes tokens and makes structure easy for models to follow.
 
-# Example
+# TOON Example
 
 For example, the following JSON object:
 
@@ -178,3 +178,7 @@ The Java Service requires the following external libraries (uploaded to the data
 * [Jackson Core 3.0.4](https://repo1.maven.org/maven2/tools/jackson/core/jackson-core/3.0.4/jackson-core-3.0.4.jar)
 * [Jackson Annotations 3.0-rc5](https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/3.0-rc5/jackson-annotations-3.0-rc5.jar)
 * [Jackson Module Blackbird 3.0.4](https://repo1.maven.org/maven2/tools/jackson/module/jackson-module-blackbird/3.0.4/jackson-module-blackbird-3.0.4.jar)
+
+## Sample Amplify Fusion Project
+
+An example test project is included in this repository. You can [import](https://docs.axway.com/bundle/amplify_integration/page/docs/manager_module/manage_the_environments/index.html#export-or-import-a-project) the zip file into your fusion tenant, and try the Java Service.
