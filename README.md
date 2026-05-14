@@ -2,7 +2,7 @@
 
 [Token-Oriented Object Notation (TOON)](https://github.com/toon-format/spec) is a compact, human-readable encoding of the JSON data model for LLM prompts.
 
-If you are sending JSON data to your LLM, you can benefit from converting your JSON to TOON to (1) reduce token costs by anywhere from 20-60% and (2) reduce token count to not exceed any token per minute (TPM) rate limiting.
+If you are sending JSON data to your LLM, you can benefit from converting your JSON to TOON to (1) reduce token costs by anywhere from 20-60% and (2) reduce token count to not exceed any token per minute (TPM) rate limiting. This applies both to making LLM Connector calls in a Fusion integration or returning data to a calling LLM from a Fusion API or MCP.
 
 TOON provides a lossless serialization of the same objects, arrays, and primitives as JSON, but in a syntax that minimizes tokens and makes structure easy for models to follow.
 
